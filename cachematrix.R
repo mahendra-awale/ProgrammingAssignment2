@@ -1,5 +1,6 @@
 ##This method takes the matrix as input and returns special list, 
 ##with length 4, in which each object is specific function.
+
  
 makeCacheMatrix <- function(x = matrix()) {
         im <- NULL
@@ -18,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ##This method solve the inverse of matrix given as input to the makeCacheMatrix.
 ##Input for this function is the special list created (returned) from 
 ##makeCacheMatrix function. Inverse of matrix is stored in cached, so that
-##avoiding recomputation.
+##avoiding recomputation of inverse matrix again.
    
 cacheSolve <- function(x, ...) {
         im <- x$getinverseMatrix()
