@@ -1,3 +1,4 @@
+
 ##This method takes the matrix as input and returns special list, 
 ##with length 4, in which each object is specific function.
 
